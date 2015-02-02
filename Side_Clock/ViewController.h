@@ -14,5 +14,7 @@
 
 -(void) updateClockLabel;
 
+-(void)handleSingleTapGesture:(UITapGestureRecognizer *)tapGestureRecognizer;
+
 @end
 

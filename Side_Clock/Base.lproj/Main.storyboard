@@ -24,18 +24,23 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
                         <constraints>
                             <constraint firstAttribute="centerX" secondItem="RNb-ni-xXq" secondAttribute="centerX" id="NX5-0a-zgg"/>
                             <constraint firstAttribute="centerX" secondItem="RNb-ni-xXq" secondAttribute="centerX" id="dwD-pT-XkX"/>
                             <constraint firstAttribute="centerY" secondItem="RNb-ni-xXq" secondAttribute="centerY" id="l5k-lJ-8jf"/>
                             <constraint firstAttribute="centerY" secondItem="RNb-ni-xXq" secondAttribute="centerY" id="m2N-M2-Er6"/>
                         </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="2bi-NU-z16" appends="YES" id="ovy-vy-kYh"/>
+                        </connections>
                     </view>
                     <connections>
                         <outlet property="clockLabel" destination="RNb-ni-xXq" id="U7e-JX-yWb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="2bi-NU-z16"/>
             </objects>
             <point key="canvasLocation" x="-457" y="-107"/>
         </scene>
