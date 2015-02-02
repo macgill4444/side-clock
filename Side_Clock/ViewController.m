@@ -17,11 +17,21 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    [self updateClockLabel];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void) updateClockLabel {
+    NSDateFormatter *clockFormat = [[NSDateFormatter alloc] init];
+    [clockFormat setDateFormat:@"hh:mm:ss a"];
+    
+    self.clockLabel.text = [clockFormat stringFromDate:[NSDate date]];
+    
+    [self performSelector:@selector(updateClockLabel) withObject:self afterDelay:1.0];
 }
 
 @end

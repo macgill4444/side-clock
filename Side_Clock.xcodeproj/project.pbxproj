@@ -15,6 +15,7 @@
 		D90F579C1A7EC88000F6A678 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D90F579B1A7EC88000F6A678 /* Images.xcassets */; };
 		D90F579F1A7EC88000F6A678 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D90F579D1A7EC88000F6A678 /* LaunchScreen.xib */; };
 		D90F57AB1A7EC88000F6A678 /* Side_ClockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D90F57AA1A7EC88000F6A678 /* Side_ClockTests.m */; };
+		D90F57B41A7F3DBF00F6A678 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90F57961A7EC88000F6A678 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -171,6 +172,7 @@
 				TargetAttributes = {
 					D90F57871A7EC88000F6A678 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = MEY4AVA7K7;
 					};
 					D90F57A31A7EC88000F6A678 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -233,6 +235,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D90F57B41A7F3DBF00F6A678 /* ViewController.m in Sources */,
 				D90F57AB1A7EC88000F6A678 /* Side_ClockTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
