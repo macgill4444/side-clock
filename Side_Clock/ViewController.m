@@ -15,8 +15,12 @@
 @implementation ViewController
 
 - (void)viewDidLoad {
+    //change background to black
+    [[self view] setBackgroundColor:[UIColor blackColor]];
+    
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
     [self updateClockLabel];
 }
 
