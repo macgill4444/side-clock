@@ -36,6 +36,8 @@
 		D9EBD1481A7FE6A600EC6A61 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D9EBD1341A7FE6A600EC6A61 /* Icon@2x.png */; };
 		D9EBD1491A7FE6A600EC6A61 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = D9EBD1351A7FE6A600EC6A61 /* iTunesArtwork */; };
 		D9EBD14A1A7FE6A600EC6A61 /* iTunesArtwork@2x in Resources */ = {isa = PBXBuildFile; fileRef = D9EBD1361A7FE6A600EC6A61 /* iTunesArtwork@2x */; };
+		D9EBD14C1A7FE75900EC6A61 /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = D9EBD14B1A7FE75900EC6A61 /* clock.png */; };
+		D9EBD14E1A7FE7C200EC6A61 /* clock_dark.png in Resources */ = {isa = PBXBuildFile; fileRef = D9EBD14D1A7FE7C200EC6A61 /* clock_dark.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +85,8 @@
 		D9EBD1341A7FE6A600EC6A61 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		D9EBD1351A7FE6A600EC6A61 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
 		D9EBD1361A7FE6A600EC6A61 /* iTunesArtwork@2x */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iTunesArtwork@2x"; sourceTree = "<group>"; };
+		D9EBD14B1A7FE75900EC6A61 /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
+		D9EBD14D1A7FE7C200EC6A61 /* clock_dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock_dark.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +181,8 @@
 			children = (
 				D9EBD1221A7FE6A600EC6A61 /* AppIcon.appiconset */,
 				D9EBD12E1A7FE6A600EC6A61 /* Icon-60.png */,
+				D9EBD14D1A7FE7C200EC6A61 /* clock_dark.png */,
+				D9EBD14B1A7FE75900EC6A61 /* clock.png */,
 				D9EBD12F1A7FE6A600EC6A61 /* Icon-72.png */,
 				D9EBD1301A7FE6A600EC6A61 /* Icon-72@2x.png */,
 				D9EBD1311A7FE6A600EC6A61 /* Icon-Small-50.png */,
@@ -288,8 +294,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9EBD14C1A7FE75900EC6A61 /* clock.png in Resources */,
 				D90F579A1A7EC88000F6A678 /* Main.storyboard in Resources */,
 				D9EBD13B1A7FE6A600EC6A61 /* Icon-60@2x.png in Resources */,
+				D9EBD14E1A7FE7C200EC6A61 /* clock_dark.png in Resources */,
 				D9EBD13C1A7FE6A600EC6A61 /* Icon-60@3x.png in Resources */,
 				D9EBD1421A7FE6A600EC6A61 /* Icon-60.png in Resources */,
 				D9EBD13A1A7FE6A600EC6A61 /* Icon-40@3x.png in Resources */,

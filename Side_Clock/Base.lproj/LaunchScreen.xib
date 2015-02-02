@@ -7,37 +7,30 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB">
-            <rect key="frame" x="0.0" y="0.0" width="804" height="312"/>
+            <rect key="frame" x="0.0" y="0.0" width="758" height="312"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Copyright (c) 2015 Macgill Davis. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="8ie-xW-0ye">
-                    <rect key="frame" x="20" y="271" width="765" height="20.5"/>
-                    <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="17"/>
-                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                    <nil key="highlightedColor"/>
-                </label>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="SIDE CLOCK" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="kId-c2-rCX">
-                    <rect key="frame" x="20" y="82" width="765" height="147"/>
-                    <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="88"/>
-                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                    <nil key="highlightedColor"/>
-                </label>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clock_dark.png" translatesAutoresizingMaskIntoConstraints="NO" id="t48-wD-ZbP">
+                    <rect key="frame" x="297" y="73" width="164" height="165"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="165" id="0bW-dR-OXL"/>
+                        <constraint firstAttribute="width" constant="164" id="4ZH-QW-DoG"/>
+                    </constraints>
+                </imageView>
             </subviews>
             <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstAttribute="centerX" secondItem="kId-c2-rCX" secondAttribute="centerX" id="Ah0-Ix-fTV"/>
-                <constraint firstAttribute="centerY" secondItem="kId-c2-rCX" secondAttribute="centerY" id="KNa-u4-EU0"/>
-                <constraint firstAttribute="centerX" secondItem="kId-c2-rCX" secondAttribute="centerX" id="Koa-jz-hwk"/>
-                <constraint firstAttribute="bottom" secondItem="8ie-xW-0ye" secondAttribute="bottom" constant="20" id="Kzo-t9-V3l"/>
-                <constraint firstItem="8ie-xW-0ye" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" symbolic="YES" id="MfP-vx-nX0"/>
-                <constraint firstAttribute="centerX" secondItem="8ie-xW-0ye" secondAttribute="centerX" id="ZEH-qu-HZ9"/>
-                <constraint firstAttribute="centerY" secondItem="kId-c2-rCX" secondAttribute="centerY" id="amN-Zz-W3E"/>
-                <constraint firstAttribute="centerX" secondItem="kId-c2-rCX" secondAttribute="centerX" id="baB-WF-GmM"/>
-                <constraint firstItem="kId-c2-rCX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" symbolic="YES" id="fvb-Df-36g"/>
+                <constraint firstAttribute="centerY" secondItem="t48-wD-ZbP" secondAttribute="centerY" id="8Wj-Dg-NbZ"/>
+                <constraint firstAttribute="centerY" secondItem="t48-wD-ZbP" secondAttribute="centerY" id="V6V-Us-K9i"/>
+                <constraint firstAttribute="centerX" secondItem="t48-wD-ZbP" secondAttribute="centerX" id="uGL-R9-sBV"/>
+                <constraint firstAttribute="centerX" secondItem="t48-wD-ZbP" secondAttribute="centerX" id="w5T-YH-mih"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="601" y="371"/>
+            <point key="canvasLocation" x="623" y="371"/>
         </view>
     </objects>
+    <resources>
+        <image name="clock_dark.png" width="600" height="587"/>
+    </resources>
 </document>
