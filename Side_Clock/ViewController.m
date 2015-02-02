@@ -56,7 +56,7 @@ int clickCounter = 0;
             break;
         case 2:
             [[self view] setBackgroundColor:[UIColor grayColor]];
-            [self.clockLabel setTextColor:[UIColor lightGrayColor]];
+            [self.clockLabel setTextColor:[UIColor whiteColor]];
             break;
         case 3:
             [[self view] setBackgroundColor:[UIColor lightGrayColor]];
