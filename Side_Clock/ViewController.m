@@ -102,6 +102,6 @@ int clickCounter = 0;
     }
 }
 
-//image used in app icon from Andy Fuchs & noun project
+//image used in splash and app icon from Andy Fuchs & noun project
 
 @end
