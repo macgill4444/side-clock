@@ -100,7 +100,6 @@ int clickCounter = 0;
             [self.clockLabel setTextColor:[UIColor lightGrayColor]];
             break;
     }
-    
 }
 
 @end
